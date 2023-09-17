@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='App'>
       <Person
-        name='Abdulmujeeb'
+        name='Ay_Tech'
         email='aytech@gmail.com'
         age={17}
         isMarried={true}
