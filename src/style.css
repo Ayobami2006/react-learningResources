@@ -1,0 +1,46 @@
+.counter {
+    background: linear-gradient(lightCyan, rgb(130, 237, 176), deepSkyBlue);
+}
+
+.firstBtn {
+    background: linear-gradient(white, lightGreen, green);
+    margin: 1%;
+    transform: scale(1.1)
+}
+
+.secondBtn {
+    background: linear-gradient(white, rgb(236, 238, 144), rgb(242, 239, 18));
+    margin: 1%;
+    transform: scale(1.1)
+}
+
+.thirdBtn {
+    background: linear-gradient(white, rgb(241, 147, 107), rgb(242, 63, 18));
+    margin: 1%;
+    transform: scale(1.1)
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    max-width: min-content;
+}
+
+/* form {
+    text-align: center;
+} */
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    border: solid 2px rgba(91, 105, 215, 0.641);
+}
+
+input:focus {
+    border: #007bff;
+}
+
+p { 
+    color: red;
+}
